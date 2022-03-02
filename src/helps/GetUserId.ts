@@ -6,5 +6,6 @@ export const getUserId = async (token: string) => {
   if (!decode.userId) {
     return false;
   }
+  
   return decode.userId;
 };
